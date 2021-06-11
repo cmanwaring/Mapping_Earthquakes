@@ -146,8 +146,8 @@ legend.onAdd = function() {
   d3.json("https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json").then(function(plateData) {
     // Creating a GeoJSON layer with the retrieved data.
     L.geoJson(plateData, {
-      color: "#aaaaaa",
-      weight: 3
+      color: "#ee4444",
+      weight: 2
       //  },
       // We turn each feature into a circleMarker on the map.
       // pointToLayer: function(feature, latlng) {
